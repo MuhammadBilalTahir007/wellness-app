@@ -113,7 +113,7 @@ class _MoodScreenState extends State<MoodScreen> {
                                 ),
 
                                 const Spacer(),
-
+                                SizedBox(height: 2.h),
                                 // Continue Button
                                 SizedBox(
                                   height: 45.h,

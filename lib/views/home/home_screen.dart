@@ -34,10 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
           body: SafeArea(
             child: SingleChildScrollView(
               child: Padding(
-                padding: EdgeInsets.symmetric(
-                  horizontal: 20.w,
-                  vertical: 10.h,
-                ),
+                padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -176,7 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           child: InsightCard(
                             title: '',
                             value: '${_viewModel.caloriesData.consumed}',
-                            subtitle: 'Calories',
+                            subtitle: 'Cal',
                             customContent: CaloriesProgress(
                               remaining: _viewModel.caloriesData.remaining,
                             ),
@@ -184,7 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             // footerRight: '${_viewModel.caloriesData.goal}',
                           ),
                         ),
-                        SizedBox(width: 16.w),
+                        SizedBox(width: 12.w),
                         Expanded(
                           child: InsightCard(
                             title: 'Weight',

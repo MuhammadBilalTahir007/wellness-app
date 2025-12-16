@@ -27,7 +27,7 @@ class InsightCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 150.h,
+      height: 175.h,
       padding: EdgeInsets.only(top: 16.h, right: 12.w, left: 12.w, bottom: 4.h),
       decoration: BoxDecoration(
         color: AppColors.cardBackground,
@@ -42,7 +42,7 @@ class InsightCard extends StatelessWidget {
             children: [
               Text(
                 value,
-                style: AppTypography.numberBig.copyWith(fontSize: 40.sp),
+                style: AppTypography.numberBig.copyWith(fontSize: 36.sp),
               ),
               if (subtitle != null) ...[
                 SizedBox(width: 2.w),
